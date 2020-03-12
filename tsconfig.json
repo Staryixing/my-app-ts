@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "jsx": "react",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "./src/**/*",
+    "./declaration.d.ts"
+  ],
+  // "linterOptions": {
+  //   "exclude": [
+  //       "node_modules/**/*.ts",
+  //       "src/**/*.{ts,tsx}"
+  //   ]
+  // }
+}
